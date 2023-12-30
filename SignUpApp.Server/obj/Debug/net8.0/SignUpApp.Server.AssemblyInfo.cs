@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SignUpApp.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c29a5665f804bdc80bca2f3e6fdd2edf766cdc95")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0ab096d14ad3efd286d1f766891109aa5ed059b")]
 [assembly: System.Reflection.AssemblyProductAttribute("SignUpApp.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SignUpApp.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
