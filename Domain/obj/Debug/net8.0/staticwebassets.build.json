@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "W9hvmMm5iRmr0HnsNlFCs1LAHIJh8c7YuE2I4yl875I=",
+  "Hash": "OtxB/NqJ8E+EQQIPH5K2avklAuS3eheEFcu/keKfW3Y=",
   "Source": "Domain",
   "BasePath": "_content/Domain",
   "Mode": "Default",
@@ -47,10 +47,10 @@
       "OriginalItemSpec": "C:\\Users\\OlaG\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\QuickGrid.razor.js"
     },
     {
-      "Identity": "C:\\Users\\OlaG\\source\\SignUpApp\\Domain\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Domain.styles.css",
+      "Identity": "C:\\Users\\OlaG\\source\\repos\\SignUpApp\\Domain\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Domain.styles.css",
       "SourceId": "Domain",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\OlaG\\source\\SignUpApp\\Domain\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\OlaG\\source\\repos\\SignUpApp\\Domain\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Domain",
       "RelativePath": "Domain.styles.css",
       "AssetKind": "All",
@@ -63,7 +63,7 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\OlaG\\source\\SignUpApp\\Domain\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Domain.styles.css"
+      "OriginalItemSpec": "C:\\Users\\OlaG\\source\\repos\\SignUpApp\\Domain\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Domain.styles.css"
     }
   ]
 }

@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "2lvfhUFR+Da+GXi8tRh60c2A0xstmihLBC5klW31lcU=",
+  "Hash": "xm5yIwQkD/ILEMoWAI1GZz+lo2b/gE8EzaX8rQIL5v8=",
   "Source": "SignUpApp.Server",
   "BasePath": "_content/SignUpApp.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\OlaG\\source\\SignUpApp\\Domain\\Domain.csproj",
+      "Identity": "C:\\Users\\OlaG\\source\\repos\\SignUpApp\\Domain\\Domain.csproj",
       "Version": 2,
       "Source": "Domain",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -18,7 +18,7 @@
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     },
     {
-      "Identity": "C:\\Users\\OlaG\\source\\SignUpApp\\signupapp.client\\signupapp.client.esproj",
+      "Identity": "C:\\Users\\OlaG\\source\\repos\\SignUpApp\\signupapp.client\\signupapp.client.esproj",
       "Version": 2,
       "Source": "signupapp.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
@@ -70,10 +70,10 @@
       "OriginalItemSpec": "C:\\Users\\OlaG\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\QuickGrid.razor.js"
     },
     {
-      "Identity": "C:\\Users\\OlaG\\source\\SignUpApp\\SignUpApp.Server\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SignUpApp.Server.styles.css",
+      "Identity": "C:\\Users\\OlaG\\source\\repos\\SignUpApp\\SignUpApp.Server\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SignUpApp.Server.styles.css",
       "SourceId": "SignUpApp.Server",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\OlaG\\source\\SignUpApp\\SignUpApp.Server\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\OlaG\\source\\repos\\SignUpApp\\SignUpApp.Server\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/SignUpApp.Server",
       "RelativePath": "SignUpApp.Server.styles.css",
       "AssetKind": "All",
@@ -86,7 +86,7 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\OlaG\\source\\SignUpApp\\SignUpApp.Server\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SignUpApp.Server.styles.css"
+      "OriginalItemSpec": "C:\\Users\\OlaG\\source\\repos\\SignUpApp\\SignUpApp.Server\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SignUpApp.Server.styles.css"
     }
   ]
 }

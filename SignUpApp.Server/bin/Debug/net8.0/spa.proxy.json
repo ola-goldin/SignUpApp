@@ -3,7 +3,7 @@
 "ServerUrl": "http://localhost:4200",
 "RedirectUrl": "",
 "LaunchCommand": "npm start",
-"WorkingDirectory": "C:\\Users\\OlaG\\source\\SignUpApp\\SignUpApp.Server\\..\\signupapp.client",
+"WorkingDirectory": "C:\\Users\\OlaG\\source\\repos\\SignUpApp\\SignUpApp.Server\\..\\signupapp.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

@@ -31,7 +31,7 @@ namespace UserApp.Server.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<UserDTO>>> GetUserItems()
         {
-        
+           
             return await _context.UserItems.Select(x=> _converters.ConvertToDTO(x)).ToListAsync();
         }
 

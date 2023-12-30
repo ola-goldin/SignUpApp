@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\OlaG\\source\\SignUpApp\\Domain\\Domain.csproj": {}
+    "C:\\Users\\OlaG\\source\\repos\\SignUpApp\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\OlaG\\source\\SignUpApp\\Domain\\Domain.csproj": {
+    "C:\\Users\\OlaG\\source\\repos\\SignUpApp\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OlaG\\source\\SignUpApp\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\OlaG\\source\\repos\\SignUpApp\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\OlaG\\source\\SignUpApp\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\OlaG\\source\\repos\\SignUpApp\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\OlaG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OlaG\\source\\SignUpApp\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\OlaG\\source\\repos\\SignUpApp\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\OlaG\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -49,9 +49,17 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.0, )"
             }
