@@ -1,4 +1,4 @@
-.Net Core 8, EF Core, Angular 16, Swagger
+.Net Core, .Net 8, EF Core, Angular 16, Swagger
 
 INSTALLATION REQUIREMENTS
 Visual Studio 2022 or higher
