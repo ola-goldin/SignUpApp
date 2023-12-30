@@ -4,7 +4,7 @@ INSTALLATION REQUIREMENTS
 Visual Studio 2022 or higher
 .Net 8
 
-Clone repository, run master branch. Press Start ▶ to start debugging.
+Clone repository in Visual Studio, run master branch. Press Start ▶ to start debugging.
 First run automatic npm install and nuget packages restore will take some time. 
 Will automatically open 2 windows: Swagger API in Chrome and SignupClient (in Edge or Crome - depends on your default settings). 
 When server runs - wou may open SignupClient in any other browser.
