@@ -1,0 +1,101 @@
+<!-- edit-user.component.html -->
+
+<form class="row g-3 d-flex flex-column flex-sm-row needs-validation" [formGroup]="form" (ngSubmit)="onSubmit()">
+    <!-- First Name -->
+    <div class="col-lg-4 col-12">
+      <label class="col-6 p-2" for="firstName">First Name:</label>
+      <input class="col-12 form-control" nbInput  type="text" formControlName="firstName" />
+      <div class="error" *ngIf="form?.invalid && form.get('firstName')?.hasError('required')">
+        First Name is required
+      </div>
+      <div class="error" *ngIf="form?.invalid && form.get('firstName')?.hasError('pattern')">
+        Invalid first name; enter letters, space, hyphen
+      </div>
+    </div>
+  
+    <!-- Last Name -->
+    <div class="col-lg-4 col-12">
+      <label class="col-6 p-2" for="lastName">Last Name:</label>
+      <input class="col-12 form-control" nbInput  type="text" formControlName="lastName" />
+      <div class="error" *ngIf="form?.invalid && form.get('lastName')?.hasError('required')">
+        Last Name is required
+      </div>
+      <div class="error" *ngIf="form?.invalid && form.get('lastName')?.hasError('pattern')">
+        Invalid last name; enter letters, space, hyphen
+      </div>
+    </div>
+
+        <!-- Date of Birth -->
+        <div class="col-lg-4 col-12">
+          <label class="col-8 p-2" for="dateOfBirth">Date of Birth:</label>
+          <input class="col-12 form-control" nbInput  type="date" formControlName="dateOfBirth" />
+    
+          <div class="error" *ngIf="form?.invalid && form.get('dateOfBirth')?.hasError('required')">
+            Date of Birth is required
+          </div>
+        </div>
+      
+
+    <div class="col-lg-6 col-12">
+        <label class="col-8 p-2" for="identityNumber">Identity Number:</label>
+        <input class="col-12 form-control" nbInput  type="tel" formControlName="identityNumber" />
+        <div class="error" *ngIf="form?.invalid && form.get('identityNumber')?.hasError('required')">
+            Identity Number is required
+          </div>
+        <div class="error" *ngIf="form?.invalid && form.get('identityNumber')?.hasError('pattern')">
+            Identity Number: enter only digits
+        </div>
+        <div class="error" *ngIf="form?.invalid && form.get('identityNumber')?.hasError('minlength')">
+            Identity Number must be at least 6 digits
+        </div>
+        <div class="error" *ngIf="form?.invalid && form.get('identityNumber')?.hasError('maxlength')">
+            Identity Number cannot exceed 10 digits
+        </div>
+      </div>
+  
+    <!-- Email -->
+    <div class="col-lg-6 col-12">
+      <label class="col-6 p-2" for="email">Email:</label>
+      <input class="col-12 form-control" nbInput  type="email" formControlName="email" />
+      <div class="error" *ngIf="form?.invalid && form.get('email')?.hasError('email')">
+        Invalid email address
+      </div>
+    </div>
+  
+
+    <!-- Gender -->
+    <div class="col-lg-6 col-12">
+      <label class="col-6 p-2" for="gender">Gender:</label>
+      <select formControlName="gender" class="col-12 form-control">
+        <option value="null" disabled >Select Gender</option>
+        <option *ngFor="let option of genders; let i = index"> {{option}}</option>
+
+      </select>
+ 
+      <div class="error" *ngIf="form?.invalid && form.get('gender')?.hasError('required')">
+        Gender is required
+      </div>
+    </div>
+  
+    <!-- Phone Number -->
+    <div class="col-lg-6 col-12">
+      <label class="col-8 p-2" for="phoneNumber">Phone Number:</label>
+      <input class="col-12 form-control" nbInput  type="tel" formControlName="phoneNumber" />
+      <div class="error" *ngIf="form?.invalid && form.get('phoneNumber')?.hasError('pattern')">
+        Invalid phone number: enter only digits
+      </div>
+      <div class="error" *ngIf="form?.invalid && form.get('phoneNumber')?.hasError('minlength')">
+        Phone number must be at least 6 digits
+      </div>
+      <div class="error" *ngIf="form?.invalid && form.get('phoneNumber')?.hasError('maxlength')">
+        Phone number cannot exceed 10 digits
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center pt-4">
+  <!-- Submit Button -->
+  <button class="col-lg-3 col-12 " status="primary" nbButton type="submit" [disabled]="form.invalid">Submit</button>
+    </div >
+    <p-toast></p-toast>
+  </form>
+ 
