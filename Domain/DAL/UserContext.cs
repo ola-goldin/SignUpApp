@@ -1,7 +1,6 @@
 ﻿using Domain.Models;
-using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Infrastructure;
+
 
 namespace Domain.DAL
 {
