@@ -36,7 +36,7 @@
         <i *ngIf="!user.gender" class="pi pi-times-circle" style="color: crimson;"></i> {{user.gender || ''}}
       </td>
       <td> {{user.dateOfBirth | date: 'shortDate' }}</td>
-      <td> {{user.phoneNumber}}</td>
+      <td>  <i *ngIf="!user.phoneNumber" class="pi pi-times-circle" style="color: crimson;"></i> {{user.phoneNumber}}</td>
       <td class="d-none d-md-block">
         <ng-container *ngTemplateOutlet="actionButtons; context: { user: user, ri: ri }"></ng-container>
       </td>
