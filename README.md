@@ -5,7 +5,7 @@ Visual Studio 2022 or higher
 .Net 8.0
 
 Clone repository in Visual Studio, run master branch (default). **SignUpApp.Server** is set as startup project. Press Start ▶ for debugging.
-First run automatic npm install and nuget packages restore will take some time. 
+On first run automatic npm install and nuget packages restore will take some time. 
 Will automatically open 2 windows: Swagger API in Chrome and SignupClient (in Edge or Crome - depends on your default settings). 
 When server runs - you can open SignupClient in any other browser.
 
